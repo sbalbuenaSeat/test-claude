@@ -3,6 +3,7 @@ import heroImg from './assets/hero.png'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import Header from './Header.tsx'
+import ImageUploader from './ImageUploader.tsx'
 import './App.css'
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         >
           Count is {count}
         </button>
+        <ImageUploader />
       </section>
 
       <div className="ticks"></div>
