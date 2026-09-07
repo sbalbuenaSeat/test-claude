@@ -65,7 +65,7 @@ confirmation:
 - Check whether a PR already exists for the current branch (`gh pr view`) to
   decide between `gh pr create` and `gh pr edit`.
 - This repo has no remote branch named after the local `feat/skill` branch — PRs
-  from feature worktrees land on `master`. Confirm the intended base with the
+  from feature worktrees land on `main`. Confirm the intended base with the
   user if it isn't obvious.
 - If `gh auth status` fails or there's no configured remote, say so and fall back
   to leaving the drafted text for the user to use manually.
